@@ -77,6 +77,13 @@
       color: #ff7900;
     }
 
+    .mail-link {
+      display: inline-block;
+      margin-top: 6px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
     footer {
       text-align: center;
       color: #91a19b;
@@ -93,13 +100,18 @@
     <a class="back" href="index.html">‹ Stocca サポートへ戻る</a>
 
     <h1>サポート</h1>
-    <div class="subtitle">Stoccaをご利用いただきありがとうございます。</div>
+    <div class="subtitle">
+      Stoccaをご利用いただきありがとうございます。
+    </div>
 
     <div class="card">
       <h2>よくある質問</h2>
 
       <div class="item">
-        <div class="question">買い物リストにはいつ追加されますか？</div>
+        <div class="question">
+          買い物リストにはいつ追加されますか？
+        </div>
+
         <p>
           商品の残量が設定した追加基準以下になり、
           予備ストックがない場合に買い物リストへ表示されます。
@@ -107,16 +119,35 @@
       </div>
 
       <div class="item">
-        <div class="question">オレンジ色のランプは何を表していますか？</div>
+        <div class="question">
+          オレンジ色のランプは何を表していますか？
+        </div>
+
         <p>
           予備ストックがあることを表しています。
           予備ストックがある状態で現在使用中の商品が0%になると、
-          予備ストックを使用したものとして残量が100%に戻ります。
+          予備ストックを使用したものとして残量が100%に戻り、
+          オレンジ色のランプは消えます。
         </p>
       </div>
 
       <div class="item">
-        <div class="question">データはどこに保存されますか？</div>
+        <div class="question">
+          買い物リストの追加基準は変更できますか？
+        </div>
+
+        <p>
+          設定画面から変更できます。
+          ご家庭の使い方に合わせて、
+          買い物リストへ追加する残量の基準を設定できます。
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="question">
+          データはどこに保存されますか？
+        </div>
+
         <p>
           Stoccaで登録したストック情報や設定は、
           アプリ内で使用するため端末上に保存されます。
@@ -133,8 +164,28 @@
       </p>
 
       <p>
-        お問い合わせ先メールアドレスは、
-        公開前にこちらへ掲載予定です。
+        お問い合わせ先：<br>
+        <a
+          class="mail-link"
+          href="mailto:stocca.support@gmail.com"
+        >
+          stocca.support@gmail.com
+        </a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>プライバシーポリシー</h2>
+
+      <p>
+        Stoccaのプライバシーポリシーは、
+        以下のページからご確認いただけます。
+      </p>
+
+      <p>
+        <a href="privacy.html">
+          プライバシーポリシーを見る
+        </a>
       </p>
     </div>
 
